@@ -1,0 +1,93 @@
+ion-menu-button {
+  color: var(--ion-color-primary);
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 2em;
+  padding-right: 2em;
+
+}
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+  color: #8c8c8c;
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}
+
+
+
+ion-card{
+  margin-top: 4em;
+}
+
+
+.teste{
+  color:aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &_conteudo{
+
+    height: 3em;
+    display: flex;
+    position: fixed;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    >img{
+      width: 2em;
+      height: 2em;
+      margin-right: 1em;
+      color:aliceblue;
+        fill: white;
+
+    }
+
+  }
+
+
+}
+
+.conteudo_background{
+  filter:brightness(0.5);
+  z-index: -1;
+}
+
+
+.input_texto {
+  border: none;
+  background-color: transparent;
+  font-size: 1.5em;
+  padding-bottom: 5em;
+  width: 100%;
+  padding-left: 1em;
+  padding-right: 1em;
+  word-wrap: break-word;
+  resize: none; /* desabilita o redimensionamento manual */
+  height: auto; /* permite que a altura seja ajustada automaticamente */
+}
+
+.input_texto:focus,
+.input_texto:active {
+  outline: none;
+}
+
+
+

@@ -1,0 +1,7 @@
+{
+  "name": "QuickNotes",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
